@@ -1,0 +1,51 @@
+.container-fluid{
+  display:flex;
+  padding: 0;
+  height: 100%;
+  /* margin-right: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  padding-left: 0px; */
+}
+.form-container {
+  width: 0;
+  overflow: hidden;
+  transition: width 0.5s ease;
+}
+
+.form-container.slide-in {
+  width: 40%;
+}
+
+.vertical-line {
+  height: 650px; 
+}
+
+.table-container {
+  flex: 1;
+  transition: margin-left 0.5s ease;
+}
+
+.table-container.shift-right {
+  margin-left: 1%;
+}
+
+table {
+  margin-top: 40px;
+  border-collapse: collapse;
+  border-bottom: 0.1px solid lightgray;
+}
+
+th{
+  background-color: #f9fafc;
+}
+
+th, td
+ {
+  border-bottom: 0.1px solid lightgray;
+  padding: 8px;
+}
+
+
+
+
